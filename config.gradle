@@ -1,0 +1,70 @@
+ext {
+
+    android = [
+            compileSdkVersion: 27,
+            minSdkVersion    : 19,
+            targetSdkVersion : 27,
+            versionCode      : 1,
+            versionName      : "1.0",
+    ]
+
+    version = [
+            "support-version": "27.1.1",
+            "junit-version"  : "4.12",
+    ]
+
+    dependencies = [
+            // android兼容包
+            "appcompat-v7"                         : "com.android.support:appcompat-v7:${version['support-version']}",
+            "support-v4"                           : "com.android.support:support-v4:${version['support-version']}",
+            "design"                               : "com.android.support:design:${version['support-version']}",
+            "support-vector-drawable"              : "com.android.support:support-vector-drawable:${version['support-version']}",
+            "constraint-layout"                    : "com.android.support.constraint:constraint-layout:1.1.3",
+            "junit"                                : "junit:junit:4.12",
+            "runner"                               : "com.android.support.test:runner:1.0.2",
+            "espresso-core"                        : "com.android.support.test.espresso:espresso-core:3.0.2",
+            "support-fragment"                     : "com.android.support:support-fragment:${version['support-version']}",
+
+            //第三方依赖
+            //rx系
+            "rxjava"                               : "io.reactivex.rxjava2:rxjava:2.1.12",
+            "rxandroid"                            : "io.reactivex.rxjava2:rxandroid:2.0.2",
+            "rxlifecycle"                          : "com.trello.rxlifecycle2:rxlifecycle:2.2.1",
+            "rxlifecycle-components"               : "com.trello.rxlifecycle2:rxlifecycle-components:2.2.1",
+            "rxbinding"                            : "com.jakewharton.rxbinding2:rxbinding:2.1.1",
+            "rxpermissions"                        : "com.github.tbruyelle:rxpermissions:0.10.2",
+
+            //network
+            "okhttp"                               : "com.squareup.okhttp3:okhttp:3.10.0",
+            "interceptor"                          : "com.squareup.okhttp3:logging-interceptor:3.9.1",
+            "retrofit"                             : "com.squareup.retrofit2:retrofit:2.4.0",
+            "converter-gson"                       : "com.squareup.retrofit2:converter-gson:2.4.0",
+            "adapter-rxjava"                       : "com.squareup.retrofit2:adapter-rxjava2:2.4.0",
+
+            //glide图片加载
+            "glide"                                : "com.github.bumptech.glide:glide:4.7.1",
+            "glide-compiler"                       : "com.github.bumptech.glide:compiler:4.7.1",
+            "glide-transformations"                : "jp.wasabeef:glide-transformations:3.3.0",
+
+            //gson
+            "gson"                                 : "com.google.code.gson:gson:2.8.2",
+
+            //recyclerview的databinding套装
+            "bindingcollectionadapter"             : "me.tatarka.bindingcollectionadapter2:bindingcollectionadapter:2.2.0",
+            "bindingcollectionadapter-recyclerview": "me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-recyclerview:2.2.0",
+
+            //多状态布局
+            "multipleStatusView"                   : "com.classic.common:multiple-status-view:1.5.1",
+
+            //material-dialogs对话框
+            "material-dialogs"                     : "com.afollestad.material-dialogs:core:0.9.6.0",
+            "material-dialogs:commons"             : "com.afollestad.material-dialogs:commons:0.9.6.0",
+
+            //Google AAC
+            "lifecycle-extensions"                 : "android.arch.lifecycle:extensions:1.1.1",
+            "lifecycle-compiler"                   : "android.arch.lifecycle:compiler:1.1.1",
+// - - - - - - - - - - - - - - - - - - - - - - -  以上在mvvmhd中依赖  - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - -
+
+
+    ]
+}
