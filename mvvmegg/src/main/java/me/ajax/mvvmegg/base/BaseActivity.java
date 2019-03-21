@@ -228,12 +228,12 @@ public abstract class BaseActivity<V extends ViewDataBinding, VM extends BaseVie
         startActivity(intent);
     }
 
-    //刷新布局
+   /* //刷新布局
     public void refreshLayout() {
         if (viewModel != null) {
             binding.setVariable(initVariableId(), viewModel);
         }
-    }
+    }*/
 
     @Override
     public void initParam(Bundle bundle) {
