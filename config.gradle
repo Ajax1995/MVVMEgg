@@ -63,6 +63,9 @@ ext {
             //Google AAC
             "lifecycle-extensions"                 : "android.arch.lifecycle:extensions:1.1.1",
             "lifecycle-compiler"                   : "android.arch.lifecycle:compiler:1.1.1",
+
+            //TwinklingRefreshLayout
+            "twinklingRefreshLayout"               : "com.lcodecorex:tkrefreshlayout:1.0.7",
 // - - - - - - - - - - - - - - - - - - - - - - -  以上在mvvmhd中依赖  - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - -
 
 
