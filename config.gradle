@@ -37,16 +37,16 @@ ext {
             "adapter-rxjava"                       : "com.squareup.retrofit2:adapter-rxjava2:2.4.0",
 
             //glide图片加载
-            "glide"                                : "com.github.bumptech.glide:glide:4.7.1",
-            "glide-compiler"                       : "com.github.bumptech.glide:compiler:4.7.1",
-            "glide-transformations"                : "jp.wasabeef:glide-transformations:3.3.0",
+            "glide"                                : "com.github.bumptech.glide:glide:4.9.0",
+            "glide-compiler"                       : "com.github.bumptech.glide:compiler:4.9.0",
+            "glide-transformations"                : "jp.wasabeef:glide-transformations:4.0.0",
 
             //gson
             "gson"                                 : "com.google.code.gson:gson:2.8.2",
 
             //recyclerview的databinding套装
-            "bindingcollectionadapter"             : "me.tatarka.bindingcollectionadapter2:bindingcollectionadapter:2.2.0",
-            "bindingcollectionadapter-recyclerview": "me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-recyclerview:2.2.0",
+            "bindingcollectionadapter"             : "me.tatarka.bindingcollectionadapter2:bindingcollectionadapter:3.0.0",
+            "bindingcollectionadapter-recyclerview": "me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-recyclerview:3.0.0",
 
             //多状态布局
             "multipleStatusView"                   : "com.classic.common:multiple-status-view:1.5.1",
@@ -56,8 +56,8 @@ ext {
             "material-dialogs:commons"             : "com.afollestad.material-dialogs:commons:0.9.6.0",
 
             //Google AAC
-            "lifecycle-extensions"                 : "android.arch.lifecycle:extensions:1.1.1",
-            "lifecycle-compiler"                   : "android.arch.lifecycle:compiler:1.1.1",
+            "lifecycle-extensions"                 : "androidx.lifecycle:lifecycle-extensions:2.0.0",
+            "lifecycle-compiler"                   : "androidx.lifecycle:lifecycle-compiler:2.0.0",
 
             //TwinklingRefreshLayout
             "twinklingRefreshLayout"               : "com.lcodecorex:tkrefreshlayout:1.0.7",
