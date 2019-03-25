@@ -1,8 +1,9 @@
 package me.ajax.mvvmegg.binding.viewadapter.webview;
 
-import android.databinding.BindingAdapter;
 import android.text.TextUtils;
 import android.webkit.WebView;
+
+import androidx.databinding.BindingAdapter;
 
 /**
  * Created by wanghua on 18-1-9.

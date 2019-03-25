@@ -1,9 +1,9 @@
 ext {
 
     android = [
-            compileSdkVersion: 27,
+            compileSdkVersion: 28,
             minSdkVersion    : 19,
-            targetSdkVersion : 27,
+            targetSdkVersion : 28,
             versionCode      : 1,
             versionName      : "1.0",
     ]
@@ -15,15 +15,15 @@ ext {
 
     dependencies = [
             // android兼容包
-            "appcompat-v7"                         : "com.android.support:appcompat-v7:${version['support-version']}",
-            "support-v4"                           : "com.android.support:support-v4:${version['support-version']}",
-            "design"                               : "com.android.support:design:${version['support-version']}",
-            "support-vector-drawable"              : "com.android.support:support-vector-drawable:${version['support-version']}",
-            "constraint-layout"                    : "com.android.support.constraint:constraint-layout:1.1.3",
+            "appcompat-v7"                         : "androidx.appcompat:appcompat:1.0.2",
+            "support-v4"                           : "androidx.legacy:legacy-support-v4:1.0.0",
+            "design"                               : "com.google.android.material:material:1.0.0",
+            "support-vector-drawable"              : "androidx.vectordrawable:vectordrawable:1.0.1",
+            "constraint-layout"                    : "androidx.constraintlayout:constraintlayout:1.1.3",
             "junit"                                : "junit:junit:4.12",
-            "runner"                               : "com.android.support.test:runner:1.0.2",
-            "espresso-core"                        : "com.android.support.test.espresso:espresso-core:3.0.2",
-            "support-fragment"                     : "com.android.support:support-fragment:${version['support-version']}",
+            "runner"                               : "androidx.test:runner:1.1.1",
+            "espresso-core"                        : "androidx.test.espresso:espresso-core:3.1.1",
+            "support-fragment"                     : "androidx.fragment:fragment:1.0.0",
 
             //第三方依赖
             //rx系

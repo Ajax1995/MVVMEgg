@@ -1,6 +1,7 @@
 package me.ajax.mvvmegg.binding.viewadapter.recyclerview;
 
-import android.support.v7.widget.RecyclerView;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by wanghua on 18-1-9.

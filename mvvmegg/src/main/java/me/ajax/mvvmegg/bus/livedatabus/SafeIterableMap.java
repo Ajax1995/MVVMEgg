@@ -1,10 +1,11 @@
 package me.ajax.mvvmegg.bus.livedatabus;
 
-import android.support.annotation.NonNull;
 
 import java.util.Iterator;
 import java.util.Map;
 import java.util.WeakHashMap;
+
+import androidx.annotation.NonNull;
 
 /**
  * Created by wanghua on 19-1-14.

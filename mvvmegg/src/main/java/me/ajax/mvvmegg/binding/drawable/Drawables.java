@@ -1,18 +1,19 @@
 package me.ajax.mvvmegg.binding.drawable;
 
 import android.content.res.Resources;
-import android.databinding.BindingAdapter;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.graphics.drawable.InsetDrawable;
-import android.support.annotation.ColorInt;
-import android.support.annotation.IntDef;
 import android.view.View;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 import java.lang.reflect.Field;
+
+import androidx.annotation.ColorInt;
+import androidx.annotation.IntDef;
+import androidx.databinding.BindingAdapter;
 
 import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.ElementType.PARAMETER;

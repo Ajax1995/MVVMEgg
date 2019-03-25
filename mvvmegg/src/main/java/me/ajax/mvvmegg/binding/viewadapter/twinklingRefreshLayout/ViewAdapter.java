@@ -1,11 +1,11 @@
 package me.ajax.mvvmegg.binding.viewadapter.twinklingRefreshLayout;
 
 
-import android.databinding.BindingAdapter;
 
 import com.lcodecore.tkrefreshlayout.RefreshListenerAdapter;
 import com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout;
 
+import androidx.databinding.BindingAdapter;
 import me.ajax.mvvmegg.binding.command.BindingCommand;
 
 

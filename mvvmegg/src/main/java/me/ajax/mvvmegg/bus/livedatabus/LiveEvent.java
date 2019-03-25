@@ -1,18 +1,21 @@
 package me.ajax.mvvmegg.bus.livedatabus;
 
-import android.arch.lifecycle.GenericLifecycleObserver;
-import android.arch.lifecycle.Lifecycle;
-import android.arch.lifecycle.LifecycleOwner;
-import android.arch.lifecycle.Observer;
-import android.support.annotation.MainThread;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+
 
 import java.util.Iterator;
 import java.util.Map;
 
-import static android.arch.lifecycle.Lifecycle.State.CREATED;
-import static android.arch.lifecycle.Lifecycle.State.DESTROYED;
+import androidx.annotation.MainThread;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.lifecycle.GenericLifecycleObserver;
+import androidx.lifecycle.Lifecycle;
+import androidx.lifecycle.LifecycleOwner;
+import androidx.lifecycle.Observer;
+
+import static androidx.lifecycle.Lifecycle.State.CREATED;
+import static androidx.lifecycle.Lifecycle.State.DESTROYED;
+
 
 /**
  * Created by wanghua on 19-1-14.

@@ -1,9 +1,10 @@
 package me.ajax.mvvmegg.base;
 
 import android.app.Activity;
-import android.support.v4.app.Fragment;
 
 import java.util.Stack;
+
+import androidx.fragment.app.Fragment;
 
 /**
  * Created by wanghua on 18-1-9.

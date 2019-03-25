@@ -1,10 +1,10 @@
 package me.ajax.mvvmegg.binding.viewadapter.radiogroup;
 
-import android.databinding.BindingAdapter;
-import android.support.annotation.IdRes;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
+import androidx.annotation.IdRes;
+import androidx.databinding.BindingAdapter;
 import me.ajax.mvvmegg.binding.command.BindingCommand;
 
 

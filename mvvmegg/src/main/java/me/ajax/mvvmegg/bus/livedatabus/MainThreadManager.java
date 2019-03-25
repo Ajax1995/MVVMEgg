@@ -2,7 +2,8 @@ package me.ajax.mvvmegg.bus.livedatabus;
 
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.Nullable;
+
+import androidx.annotation.Nullable;
 
 /**
  * Created by wanghua on 19-1-14.
