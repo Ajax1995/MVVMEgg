@@ -8,11 +8,6 @@ ext {
             versionName      : "1.0",
     ]
 
-    version = [
-            "support-version": "27.1.1",
-            "junit-version"  : "4.12",
-    ]
-
     dependencies = [
             // android兼容包
             "appcompat-v7"                         : "androidx.appcompat:appcompat:1.0.2",
